@@ -8,7 +8,7 @@ Ai03: Case [Link](https://github.com/ai03-2725/ContraPlates)
 
  # Programing the keyboard
 
- ## Firmware Compilator:
+ ## Firmware 
 
 ### QMK Configurator
 Github [Repository](https://github.com/qmk/qmk_configurator)       
@@ -47,7 +47,7 @@ Cargar layout contra.json y descargar HEX.
 Config [File](./Files/kbf_contra.json)
 
 ## Flashing:
-+ Press reset and luego then: (8 sec window time)
++ Press reset and then: (8 sec window time)
 ```bash
 $ sudo avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 -U flash:w:contra.hex
 ```
