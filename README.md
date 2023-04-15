@@ -20,16 +20,19 @@ Config [File](./Files/qmk_contra_custom.json)
 $ docker run -p 8080:80 qmkfm/qmk_configurator:latest
 ```
 ### Layer 0      
-![Layer 0](./Img/layer0.jpg)
-
+![Layer 0](./Img/layer0.png)
+### Layer 1      
+![Layer 0](./Img/layer1.png)
+### Layer 2      
+![Layer 0](./Img/layer2.png)
 ### Layer 3
-![Layer 3](./Img/layer3.jpg)
+![Layer 3](./Img/layer3.png)
 
 ### Layer 4  
-![Layer 4](./Img/layer4.jpg)
+![Layer 4](./Img/layer4.png)
 
 ### Layer 6  
-![Capa 6](./Img/layer6.jpg)
+![Capa 6](./Img/layer6.png)
 
 
 
@@ -49,7 +52,7 @@ Config [File](./Files/kbf_contra.json)
 ## Flashing:
 + Press reset and then: (8 sec window time)
 ```bash
-$ sudo avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 -U flash:w:contra.hex
+$ sudo avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 -U flash:w:contra_contra_layout_planck_mit_mine.hex
 ```
 * Modify "contra.hex" with desired filename
 * Toolchain needed:  Avr-gcc. [Archwiki](https://wiki.archlinux.org/title/AVR#Toolchain)
